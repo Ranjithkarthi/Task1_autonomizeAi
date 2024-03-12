@@ -1,0 +1,105 @@
+.item-container {
+    background-color: #65729f;
+    width: 100%;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 10px 0 10px 0;
+}
+
+.item-name {
+    color: #ffffff;
+    margin: 0 0 0 20px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item-inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-button {
+    background-color: transparent;
+    border: none;
+}
+
+.edit-icon {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+}
+
+.close-icon {
+    width: 15px;
+    height: 15px;
+    margin: 0 10px 0 15px;
+}
+
+.span-element {
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+    .item-container {
+        padding: 8px;
+    }
+
+    .item-name {
+        font-size: 24px;
+    }
+    
+    .edit-icon {
+        width: 25px;
+        height: 25px;
+        color: #ffffff;
+    }
+    
+    .close-icon {
+        width: 25px;
+        height: 25px;
+        margin: 0 20px 0 30px;
+    }
+    
+    .span-element {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .item-container {
+        padding: 10px;
+    }
+
+    .item-name {
+        margin: 0 0 0 20px;
+        font-size: 24px;
+    }
+    
+    .edit-icon {
+        width: 25px;
+        height: 25px;
+        color: #ffffff;
+    }
+    
+    .close-icon {
+        width: 25px;
+        height: 25px;
+        margin: 0 20px 0 30px;
+    }
+    
+    .span-element {
+        margin-left: 20px;
+    }
+}
